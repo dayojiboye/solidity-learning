@@ -17,9 +17,8 @@ contract Coin {
     }
 
     modifier onlyOwner() {
-        if (msg.sender == minter) {
-            _;
-        }
+        require(msg.sender == minter);
+        _;
     }
 
     function mint(address receiver, uint256 amount) public onlyOwner {
@@ -33,7 +32,9 @@ contract Coin {
                 amountAavailable: balances[msg.sender]
             });
         }
+
         balances[msg.sender] -= amount;
         balances[receiver] += amount;
+        emit Sent(msg.sender, receiver, amount);
     }
 }

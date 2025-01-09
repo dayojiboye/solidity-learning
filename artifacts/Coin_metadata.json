@@ -148,11 +148,11 @@
 	},
 	"sources": {
 		"subcurrency.sol": {
-			"keccak256": "0x81317436c6eb4478be9826689e5e1f79f9025e0b03dd58c41ce068ac6bad1b69",
+			"keccak256": "0x69ae921ee96c80cf40ede15396995356f69738d583beb8563b479bf66f4c37ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56902306cfd39cbd0f4a427014ec3956dc401352ca6985217dd30efdde7cb8fb",
-				"dweb:/ipfs/QmXUvLQESjeApMLfFsWQ8ezhb2dWv8hJNpMemfpmMkqVh1"
+				"bzz-raw://fb8678b5c0d8835e509382c20644ff6e820ff497c3fb110493950e9743bcf238",
+				"dweb:/ipfs/QmUfSaR2QcisL7YsfuLogd7mjUqws54VUb4u5YMPznKN6w"
 			]
 		}
 	},
